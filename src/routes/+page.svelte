@@ -1,29 +1,27 @@
-<script>
-	import './styles.css';
-</script>
-
 <main>
-	<div class="title-container">
-		<div class="title-wrapper">
-			<img src="/mainichi-logo.svg" alt="Mainichi logo" class="mainichi-img" />
-			<h1>Mainichi <span class="focus-text">Habits</span></h1>
-		</div>
-		<p>
-			Make your <span class="focus-text">habits</span> stick and build your
-			<span class="focus-text">streak</span>!
-		</p>
+	<div class="container">
+		<div class="title-container">
+			<div class="title-wrapper">
+				<img src="/mainichi-logo.svg" alt="Mainichi logo" class="mainichi-img" />
+				<h1>Mainichi <span class="focus-text">Habits</span></h1>
+			</div>
+			<p>
+				Make your <span class="focus-text">habits</span> stick and build your
+				<span class="focus-text">streak</span>!
+			</p>
 
-		<a
-			class="app-store-button"
-			href="https://www.chadmuro.com"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			<img src="/app-store-black.svg" alt="Download on the app store" class="app-store-img" />
-		</a>
-	</div>
-	<div class="screenshot-container">
-		<p>Screenshot of app</p>
+			<a
+				class="app-store-button"
+				href="https://www.chadmuro.com"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src="/app-store-black.svg" alt="Download on the app store" class="app-store-img" />
+			</a>
+		</div>
+		<div class="screenshot-container">
+			<img src="/iphone.png" alt="Mainichi screenshot" class="screenshot-img" />
+		</div>
 	</div>
 </main>
 
@@ -37,6 +35,21 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 16px;
+		max-width: 100%;
+	}
+
+	.container {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		max-width: 1200px;
+
 		@media only screen and (min-width: 768px) {
 			flex-direction: row;
 		}
@@ -52,11 +65,18 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 
 	.title-wrapper {
 		display: flex;
+		font-size: 18px;
 		gap: 20px;
+
+		@media only screen and (min-width: 768px) {
+			font-size: 20px;
+		}
 	}
 	.focus-text {
 		color: var(--primary);
@@ -87,5 +107,12 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.screenshot-img {
+		width: 100%;
+		max-width: 400px;
 	}
 </style>

@@ -25,10 +25,6 @@
 	</div>
 </main>
 
-<footer>
-	<p>© Chad Murobayashi 2023</p>
-</footer>
-
 <style>
 	/* Laayout */
 	main {
@@ -53,11 +49,6 @@
 		@media only screen and (min-width: 768px) {
 			flex-direction: row;
 		}
-	}
-	footer {
-		/* background-color: red; */
-		display: flex;
-		justify-content: center;
 	}
 
 	/* Title container */

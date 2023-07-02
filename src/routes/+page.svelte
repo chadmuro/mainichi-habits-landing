@@ -5,7 +5,7 @@
 				<img src="/mainichi-logo.svg" alt="Mainichi logo" class="mainichi-img" />
 				<h1>Mainichi <span class="focus-text">Habits</span></h1>
 			</div>
-			<p>
+			<p class="title-description">
 				Make your <span class="focus-text">habits</span> stick and build your
 				<span class="focus-text">streak</span>!
 			</p>
@@ -71,11 +71,15 @@
 
 	.title-wrapper {
 		display: flex;
-		font-size: 18px;
+		font-size: 16px;
 		gap: 20px;
 
 		@media only screen and (min-width: 768px) {
-			font-size: 20px;
+			font-size: 18px;
+		}
+
+		@media only screen and (min-width: 992px) {
+			font-size: 24px;
 		}
 	}
 	.focus-text {
@@ -87,8 +91,12 @@
 		height: auto;
 	}
 
+	.title-description {
+		text-align: center;
+	}
+
 	.app-store-button {
-		max-width: 300px;
+		max-width: 280px;
 		width: 100%;
 		height: auto;
 		background-color: inherit;
@@ -109,10 +117,15 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+		padding-top: 16px;
+
+		@media only screen and (min-width: 768px) {
+			padding-top: 0px;
+		}
 	}
 
 	.screenshot-img {
 		width: 100%;
-		max-width: 400px;
+		max-width: 380px;
 	}
 </style>

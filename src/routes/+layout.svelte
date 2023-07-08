@@ -2,22 +2,39 @@
 	import './styles.css';
 </script>
 
-<slot />
+<main>
+	<slot />
+</main>
 <footer>
 	<ul>
 		<li>
-			<a href="/">Top</a>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="/release">Release Notes</a>
 		</li>
 		<li>
 			<a href="/privacy">Privacy</a>
 		</li>
 	</ul>
-	<p>© Chad Murobayashi 2023</p>
+	<p>
+		© <a href="https://www.chadmuro.com/" target="_blank" rel="noopener noreferrer"
+			>Chad Murobayashi</a
+		> 2023
+	</p>
 </footer>
 
 <style>
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 16px;
+		max-width: 100%;
+	}
 	footer {
-		/* background-color: red; */
 		display: flex;
 		gap: 0px;
 		justify-content: center;
@@ -33,19 +50,9 @@
 	}
 
 	ul {
-		list-style: none;
 		display: flex;
-		gap: 20px;
+		gap: 25px;
 		padding: 0px;
 		margin: 0px;
-	}
-
-	a {
-		color: var(--primary);
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration: underline;
 	}
 </style>

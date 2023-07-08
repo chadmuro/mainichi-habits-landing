@@ -1,5 +1,5 @@
-<main>
-	<h1>Privacy Policy for Mainichi Habits</h1>
+<div class="container">
+	<h1>Privacy Policy for <span class="focus-text">Mainichi</span> Habits</h1>
 	<h2>Effective Date: July 1st, 2023</h2>
 	<p>
 		Chad Murobayashi, I, operate the Mainichi Habits mobile application (hereinafter referred to as
@@ -49,17 +49,20 @@
 		If you have any questions or suggestions about my Privacy Policy, please contact me at
 		chadmurodev@gmail.com.
 	</p>
-</main>
+</div>
 
 <style>
-	main {
+	p {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.container {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 16px;
-		max-width: 100%;
-		text-align: center;
+		width: 100%;
+		max-width: 800px;
 	}
 </style>

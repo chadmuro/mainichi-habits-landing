@@ -1,42 +1,29 @@
-<main>
-	<div class="container">
-		<div class="title-container">
-			<div class="title-wrapper">
-				<img src="/mainichi-logo.svg" alt="Mainichi logo" class="mainichi-img" />
-				<h1>Mainichi <span class="focus-text">Habits</span></h1>
-			</div>
-			<p class="title-description">
-				Make your <span class="focus-text">habits</span> stick and build your
-				<span class="focus-text">streak</span>!
-			</p>
+<div class="container">
+	<div class="title-container">
+		<div class="title-wrapper">
+			<img src="/mainichi-logo.svg" alt="Mainichi logo" class="mainichi-img" />
+			<h1><span class="focus-text">Mainichi</span> Habits</h1>
+		</div>
+		<p class="title-description">
+			Make your <span class="focus-text">habits</span> stick and build your
+			<span class="focus-text">streak</span>!
+		</p>
 
-			<a
-				class="app-store-button"
-				href="https://www.chadmuro.com"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<img src="/app-store-black.svg" alt="Download on the app store" class="app-store-img" />
-			</a>
-		</div>
-		<div class="screenshot-container">
-			<img src="/iphone.png" alt="Mainichi screenshot" class="screenshot-img" />
-		</div>
+		<a
+			class="app-store-button"
+			href="https://www.chadmuro.com"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<img src="/app-store-black.svg" alt="Download on the app store" class="app-store-img" />
+		</a>
 	</div>
-</main>
+	<div class="screenshot-container">
+		<img src="/iphone.png" alt="Mainichi screenshot" class="screenshot-img" />
+	</div>
+</div>
 
 <style>
-	/* Laayout */
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 16px;
-		max-width: 100%;
-	}
-
 	.container {
 		flex: 1;
 		display: flex;
@@ -72,9 +59,6 @@
 		@media only screen and (min-width: 992px) {
 			font-size: 24px;
 		}
-	}
-	.focus-text {
-		color: var(--primary);
 	}
 
 	.mainichi-img {

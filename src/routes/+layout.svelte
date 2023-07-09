@@ -39,7 +39,7 @@
 		gap: 0px;
 		justify-content: center;
 		align-items: center;
-		padding: 16px;
+		padding: 0 16px 16px;
 		overflow: wrap;
 		flex-direction: column;
 

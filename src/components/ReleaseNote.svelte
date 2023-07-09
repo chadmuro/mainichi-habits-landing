@@ -11,7 +11,11 @@
 	<h3>What's new in this version?</h3>
 	<p>{releaseNotes}</p>
 
-	<a href="/">View on the App Store</a>
+	<a
+		href="https://apps.apple.com/app/mainichi-habits/id6451048200"
+		target="_blank"
+		rel="noopener noreferrer">Download on the App Store</a
+	>
 </div>
 <div class="spacer" />
 

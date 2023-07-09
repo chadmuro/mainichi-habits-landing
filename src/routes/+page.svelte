@@ -11,7 +11,7 @@
 
 		<a
 			class="app-store-button"
-			href="https://www.chadmuro.com"
+			href="https://apps.apple.com/app/mainichi-habits/id6451048200"
 			target="_blank"
 			rel="noopener noreferrer"
 		>

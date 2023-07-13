@@ -1,16 +1,19 @@
 <script lang="ts">
 	export let version: string;
 	export let date: string;
-	export let releaseNotes: string;
+	export let releaseNotes: string[];
 </script>
 
 <div>
 	<h2>Version: {version}</h2>
 	<date>{date}</date>
 
-	<h3>What's new in this version?</h3>
-	<p>{releaseNotes}</p>
-
+	<h3>What's New in This Version?</h3>
+	<ul>
+		{#each releaseNotes as releaseNote}
+			<li><p>{releaseNote}</p></li>
+		{/each}
+	</ul>
 	<a
 		href="https://apps.apple.com/app/mainichi-habits/id6451048200"
 		target="_blank"
@@ -22,6 +25,10 @@
 <style>
 	p {
 		font-family: 'Roboto', sans-serif;
+	}
+
+	li {
+		list-style: initial;
 	}
 
 	.spacer {

@@ -54,5 +54,6 @@
 		gap: 25px;
 		padding: 0px;
 		margin: 0px;
+		list-style: none;
 	}
 </style>

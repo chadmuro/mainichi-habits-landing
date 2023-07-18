@@ -54,7 +54,6 @@
 <style>
 	p {
 		width: 100%;
-		font-family: 'Roboto', sans-serif;
 		margin-top: 0;
 		padding-bottom: 16px;
 	}
